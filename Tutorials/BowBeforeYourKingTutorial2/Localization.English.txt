@@ -1,0 +1,71 @@
+.,English
+quest.name,Bow before your king (Demo 1)
+quest.description,Add some flavor text here.
+quest.synopsys,Add some flavor text here (you can see this text in the mission selection screen of valkyrie).
+quest.authors,Tantum
+quest.authors_short,Tantum
+TokenSearch21B.button1,{action} Search
+TokenSearch4A.button1,{action} Search
+Door1B.text,<i>Add some flavor text here.</i>
+Door1B.button1,{action} Open door
+EventOpenDoor1B.text,<i>Add some flavor text here.</i>\n\nRemove the door.\n\nAdd 4A, one extender and a door as shown.\n\nPlace one search token as shown.
+EventOpenDoor1B.button1,Continue
+EventTokenSearch2Players1.text,<i>Add some flavor text here.</i>\n\nThe heroes found {var:EventTokenSearch2Players1Gold} gold.\n\nRemove this token.
+EventTokenSearch2Players1.button1,Continue
+TokenSearch21B.text,<i>Add some flavor text here.</i>
+EventTokenSearch4A.text,<i>Add some flavor text here.</i>\n\nSearch the search cards for a health potion. Afterwards shuffle the search card pile.\n\nDiscard this token.
+TokenSearch4A.text,<i>Add some flavor text here.</i>
+EventTokenSearch4A.button1,Continue
+Door19B.text,<i>This is a blocked door. What might be behind it?</i>
+Door19B.button1,{action} Test {might}
+EventPlaceTiles3.text,<i>Add some flavor text here.</i>\n\nRemove the door.\n\nPlace 29B one extender and a door as shown.
+EventPlaceTiles3.button1,Continue
+Door16B.text,<i>Add some flavor text here.</i>
+Door16B.button1,{action} Open door
+EventPlaceTiles4.text,<i>Add some flavor text here.</i>\n\nRemove the door.\n\nPlace 2B, 14B, 16B, 26B and 5 endcaps as shown.
+EventPlaceTiles4.button1,Continue
+SpawnOpenGroup1.text,Place the {type} group as shown.
+SpawnOpenGroup1.button1,Continue
+Event19BTestCheck.text,Did you pass the test?
+Event19BTestCheck.button1,No
+Event19BTestCheck.button2,Yes
+SpawnShadowDragon.text,<i>Some flavor text.</i>\n\nPlace a {type} as shown.
+SpawnShadowDragon.button1,Continue
+Event29BTestFailed.text,<i>The door stays locked.</i>
+Event29BTestFailed.button1,Continue
+EventPlaceSearchTokens2Players.text,Place search tokens as shown.
+EventPlaceSearchTokens2Players.button1,Continue
+EventPlaceSearchTokens3Players.text,Place search tokens as shown.
+EventPlaceSearchTokens3Players.button1,Continue
+EventPlaceSearchTokens4Players.text,Place search tokens as shown.
+EventPlaceSearchTokens4Players.button1,Continue
+EventSearchTokensRules.text,<i>To your left lies your gear. Looks like the overlord minions were planning to take it apart. The powerful magic inside this would be very helpful for the overlord.</i> \n\nPlace search tokens as shown. Sort all act 2 search cards by their type: \n\nWeapons, armour and other. Make one card tile for each category. \n\nWhen a hero uses the search action of one of these search tokens instead of drawing one search card the hero draws 1 weapon, 1 armour and one other item from the three card piles. \n
+EventSearchTokensRules.button1,Continue
+TokenSearch14B2.button1,{action} Search
+TokenSearch14B3.text,<i>This rack contains some parts of your gear.</i>
+TokenSearch14B1.button1,{action} Search
+TokenSearch14B2.text,<i>This rack contains some parts of your gear.</i>
+TokenSearch14B4.button1,{action} Search
+TokenSearch14B1.text,<i>This rack contains some parts of your gear.</i>
+TokenSearch14B3.button1,{action} Search
+EventSearchToken14B1.text,Remove this token.
+EventSearchToken14B1.button1,Continue
+EventDrawGear.text,Instead of drawing a search card draw 1 weapon, 1 armor and one other item from the three card tiles you have prepared.
+EventDrawGear.button1,Continue
+EventSearchToken14B2.text,Remove this token.
+EventSearchToken14B2.button1,Continue
+EventSearchToken14B3.text,Remove this token.
+EventSearchToken14B3.button1,Continue
+EventSearchToken14B4.text,Remove this token.
+EventSearchToken14B4.button1,Continue
+TokenSearch14B4.text,<i>This rack contains some parts of your gear.</i>
+EventPlaceZachareth.text,<b>Special Rule:</b>\n\nPlace Lord Zachareth as shown. He does not move or attack and can not be defeated.\n\nZachareth will use has magic at the end of each round to attack the heroes.
+EventPlaceZachareth.button1,Continue
+SpawnGateMonster1.text,<i>Some flavor text.</i>\n\nPlace the {type} group as shown respecting group limits.
+SpawnGateMonster1.button1,Continue
+SpawnItemMonsters.text,<i>Add some flavor text.</i>\n\nPlace the {type} group as shown respecting group limits.
+SpawnItemMonsters.button1,Continue
+EventRevieveHeroes.text,<b>Special Rules</b>\n\nEach defeated hero can now execute a free stand up action.
+EventRevieveHeroes.button1,Continue
+EventObjective2.text,<b>Special Rules</b>\n\nThe heroes have lost all their morale. As soon as one hero is defeated the heroes automatically lose this mission.\n\n<b>Objective</b>\n\nSurvive for {var:SurviveRounds} rounds.
+EventObjective2.button1,Continue
