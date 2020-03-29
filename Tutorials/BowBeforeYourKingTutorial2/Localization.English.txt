@@ -1,5 +1,5 @@
 .,English
-quest.name,Bow before your king (Demo 1)
+quest.name,Bow before your king (Demo 2)
 quest.description,Add some flavor text here.
 quest.synopsys,Add some flavor text here (you can see this text in the mission selection screen of valkyrie).
 quest.authors,Tantum
