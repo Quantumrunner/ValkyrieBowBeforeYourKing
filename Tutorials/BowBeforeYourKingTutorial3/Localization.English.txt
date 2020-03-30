@@ -1,5 +1,5 @@
 .,English
-quest.name,Bow before your king (Tutorial 2)
+quest.name,Bow before your king (Tutorial 3)
 quest.description,Add some flavor text here.
 quest.synopsys,Add some flavor text here (you can see this text in the mission selection screen of valkyrie).
 quest.authors,Tantum
@@ -69,3 +69,34 @@ EventRevieveHeroes.text,<b>Special Rules</b>\n\nEach defeated hero can now execu
 EventRevieveHeroes.button1,Continue
 EventObjective2.text,<b>Special Rules</b>\n\nThe heroes have lost all their morale. As soon as one hero is defeated the heroes automatically lose this mission.\n\n<b>Objective</b>\n\nSurvive for {var:SurviveRounds} rounds.
 EventObjective2.button1,Continue
+EventEndRound.button1,Continue
+EventEndRoundEvents.button1,Continue
+EventZacharethMagic.button1,Continue
+EventZacharethMagic1.button1,Continue
+EventZacharethMagic3.button1,Continue
+EventZacharethMagic1.text,"<i>Zachareth casts a spell while he says:\n\n""So you found your weapons? Let's see how long you can use it if it burns your flesh!"" \n\nBurning lava appears in the room next to your gear.</i>\n\nAll heroes standing on 14B or 16B lose {var:ZacharethSpell1LoseHealth} {heart} and are burning."
+EventZacharethMagic2.text,"<i>You can hear Zachareth's voice again:\n\n""Lets see how my minions feel after this little strength boost.""\n\nHis servants begin to glow in an eerie red. With a loud roar they race towards you and tear you to the ground. </i>\n\nEach monster immediately makes one move action to engage the nearest hero.\n\nIf a monster is already standing next to a hero it does not move but this hero loses {var:ZacharethSpell2Damage} {heart}."
+EventZacharethMagic2.button1,Continue
+EventZacharethMagic3.text,"<i>Zachareth screams:\n\n""Enough already! You have distracted me long enough! If you won't bow before your new king you will die!""\n\nHe seems to concentrate At first nothing happens but suddenly the earth begins to quake and the ground around you cracks. Zachareth's servants don't stand a chance and immediately fall into the blackness. With all your strength you hold on to a pillar, but that doesn't help either. A huge stone breaks from the ceiling and hits you.</i>\n\nExecute one melee action against each hero with one red and one blue die."
+EventZacharethFinalSpellCheck.text,Did all heroes survive Zachareth's last attack?
+EventZacharethFinalSpellCheck.button1,Yes
+EventZacharethFinalSpellCheck.button2,No
+EventDefeated.text,<i>Add some flavor text here.</i>\n\n<b>The heroes have lost this encounter.</b>
+EventDefeated.button1,Continue
+EventVictory.text,<i>Add some flavor text here.</i>\n\n<b>The heroes have won this encounter.</b>
+EventVictory.button1,Continue
+EventStartRound.button1,Continue
+EventStartRoundEvents.button1,Continue
+SpawnEndRoundGateSpawn.text,Place the {type} group on 2B respecting group limits.
+SpawnEndRoundGateSpawn.button1,Continue
+SpawnItemMonsters1.text,Place the {type} group on 14B respecting group limits.
+SpawnItemMonsters1.button1,Continue
+SpawnSpawnEndRoundGateSpawn2.text,Place the {type} group on 2B respecting group limits.
+SpawnSpawnEndRoundGateSpawn2.button1,Continue
+SpawnItemMonsters2.text,Place the {type} group on 14B respecting group limits.
+SpawnItemMonsters2.button1,Continue
+EventNoMoraleBeforeLastDoor.text,<i>Add some different flavor text.</i>\n\n<b>The heroes have been defeated.</b>
+EventNoMorale.button1,Continue
+EventNoMoraleBeforeLastDoor.button1,Continue
+EventNoMoraleLastDoorOpened.text,<i>The heroes can not stand against the monster and have to look how Zachareth's crushes their friends.</i>
+EventNoMoraleLastDoorOpened.button1,Continue
