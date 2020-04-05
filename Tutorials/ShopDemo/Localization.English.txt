@@ -1,0 +1,26 @@
+.,English
+quest.name,ShopDemo
+quest.description,This demo shows how to add a shop to your encounters. Check the Start event for details.
+EventStart.button1,Continue
+TokenAdd.button2,Add gold
+TokenShop.text,"Open shop?\n\nTo open the shop add at least 2 QItems to show the shop menu. Furthermore add Item components using the add component logic.\n\nEnsure for each item that ""Pool Traits"" is set and ""Traits"" is not set. Otherwise the shop will be empty. Using the ""Trait"" you can set a trait act for the item (act 1 or act2)."
+TokenShop.button1,Yes
+TokenShop.button2,No
+EventShowShop.button1,Close Shop
+TokenAdd.button3,Add fame
+EventStart.text,This demo shows how to add a shop to your encounters.\n\nFirst you should set some variables for the shop.\n\nThis start event sets the start fame and the fame levels for the shop items. Fame determines which items the heroes will see in the shop.\n\nThe different fame levels are set for each item that exists in valkyrie. For example the item Chipped Greataxe will only appear when the heroes have a fame level of impressive (which is set to 2 in this event)  or legendary (which is set to 16 in this event). \n\nstart fame: {var:$%fame}\nfameimpressive: {var:$%fameimpressive} \nfamecelebrated: {var:$%famecelebrated} \nfameheroic: {var:$%fameheroic} \nfamelegendary: {var:$%famelegendary}
+TokenAdd.button1,Restock
+EventRestock.button1,Continue
+TokenAdd.text,This token helps you to test the shop logic.\n\nRestock = Restock items in the shop\nAdd gold = Add more gold for the heroes to buy items in the shop.\nAdd fame = Increase the heroes fame. Fame determines which items the heroes will see in the shop.
+EventAddGold.button1,Continue
+EventAddGold.text,The heroes gold has been increased by {var:GoldAdd} to {var:$%gold}.
+EventRestock.text,The shop items have been restocked.
+EventAddFame.text,The heroes famed has been icnreased by {var:FameAdd} to {var:$%fame}.
+EventAddFame.button1,Continue
+EventShowShopMarker.text,Now you can open the shop by clicking at this token.
+EventShowShopMarker.button1,Continue
+EventCloseShop.text,"To close the shop use the build in component ""#shop"" in the ""Remove components"" section of the event."
+EventCloseShop.button1,Continue
+EventShowShop.text,"This text will not be shown if at least one item is added using ""Add components""."
+EventShowAddMarker.text,Click at this token to increase /changevariables connected to the show.
+EventShowAddMarker.button1,Continue

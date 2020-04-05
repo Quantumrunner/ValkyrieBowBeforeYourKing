@@ -1,0 +1,12 @@
+.,English
+ContinueButton,Continue
+RuleZombie,Zombies have an increased speed of 4 in this encounter.
+quest.name,Sound, graphics and localisation demo
+quest.description,Quest 1...
+EventStart.button1,{qst:ContinueButton}
+EventAddToken.text,When you click at this token a zombies sound will be started. {qst:RuleZombie}
+EventAddToken.button1,{qst:ContinueButton}
+UIButtonMap.uitext,Show Map
+UIButtonMap.button1,{qst:ContinueButton}
+EventShowMap.button1,{qst:ContinueButton}
+EventHideMap.button1,{qst:ContinueButton}

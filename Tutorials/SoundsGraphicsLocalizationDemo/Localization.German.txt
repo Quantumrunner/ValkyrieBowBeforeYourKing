@@ -1,0 +1,10 @@
+﻿.,German
+quest.name,Sounds und Grafiken demo
+quest.description,Quest 1...
+EventStart.button1,Weiter
+EventAddToken.text,Ein Klick auf diesen Token lässt ein Zombie Geräusch ertönen.
+EventAddToken.button1,Weiter
+UIButtonMap.uitext,Karte anzeigen
+UIButtonMap.button1,Weiter
+EventShowMap.button1,Weiter
+EventHideMap.button1,Weiter
